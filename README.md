@@ -1,2 +1,2 @@
 # sam_med
-SAM-MED (Segment-Anything-Medical) 
+SAMED (Segment-Anything-Medical) 
