@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "SAM-Medical"
+name = "SAM-MEDICAL"
 version = "1.0.0"
 description = "SAM (Segment-Anything) for medical image segmentation."
 readme = "README.md"
