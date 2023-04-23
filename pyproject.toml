@@ -29,8 +29,8 @@ repository = "<project-repository-url>"
 documentation = "<project-documentation-url>"
 
 [project.dependencies]
-<dependency1> = "<version-specifier>"
-<dependency2> = "<version-specifier>"
+submodule = { git = "https://github.com/facebookresearch/segment-anything.git", branch = "main" }
+
 
 [project.dev-dependencies]
 <dev-dependency1> = "<version-specifier>"
