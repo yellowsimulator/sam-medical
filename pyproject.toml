@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SAM-Medical"
+version = "1.0.0"
+description = "SAM (Segment-Anything) for medical image segmentation."
+readme = "README.md"
+authors = [
+    {name = "Yapi Donatien Achou", email = "yapi.donatien.achou@vikingailab.com"}
+]
+license = "MIT"
+keywords = ["<keyword1>", "<keyword2>", "<keyword3>"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+homepage = "<project-homepage-url>"
+repository = "<project-repository-url>"
+documentation = "<project-documentation-url>"
+
+[project.dependencies]
+<dependency1> = "<version-specifier>"
+<dependency2> = "<version-specifier>"
+
+[project.dev-dependencies]
+<dev-dependency1> = "<version-specifier>"
+<dev-dependency2> = "<version-specifier>"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest]
+addopts = "--verbose"
