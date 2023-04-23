@@ -22,3 +22,8 @@ git commit -m "Update submodule segment_anything"
 ```python
 git clone --recursive-submodules < this-repo>
 ```
+
+Using this package:
+
+
+1-

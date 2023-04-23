@@ -1,8 +1,8 @@
-import os
 import yaml
 import requests
-from pathlib import Path
 from tqdm import tqdm
+from pathlib import Path
+
 
 
 def get_model_urls(config_file: str) -> dict:
@@ -41,8 +41,10 @@ def create_directory_if_not_exists(path: str):
     if not directory.exists():
         directory.mkdir(parents=True)
 
-def download_models(config_file: str, destination: str="models"):
-    """Downloads modesl files.
+
+def download_models(config_file: str="api/v1/configs.yaml",
+                    destination: str="models"):
+    """Downloads model files.
 
     Parameters
     ----------
@@ -78,5 +80,4 @@ def download_models(config_file: str, destination: str="models"):
 
 
 if __name__ == '__main__':
-    config_file = Path('../../configs.yaml')
-    download_models(config_file)
+    ...
